@@ -1,0 +1,227 @@
+.fadein {
+    animation: fadein 1.5s
+}
+
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+
+    100% {
+        opacity:1;
+    }
+}
+
+.skillsrow{
+    animation: bounce 2s ease-in forwards 
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0);} 
+    20% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);}
+    50% {transform: translateY(0);} 
+    60% {transform: translateY(-15px);}
+    80% {transform: translateY(0);} 
+    100% {
+        transform: translateY(0);
+        color: rgb(6, 78, 65)
+    } 
+ } 
+
+#welcomepage a {
+    padding-top: 700px;
+}
+
+#aboutmepage a {
+    padding-top: 700px;
+}
+
+#welcomepage a span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+  }
+
+#aboutmepage a span{
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+
+  @-webkit-keyframes sdb05 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+  @keyframes sdb05 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+
+
+  
+.scrollFade {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--hidden {
+    opacity: .20;
+    pointer-events: none;
+  }
+  .scrollFade--visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--animate {
+    transition: opacity 1s ease-in-out;
+  }
+
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end) 1.5s forwards,
+      blink-caret .75s step-end infinite;
+  }
+
+    /* The typing effect */
+    @keyframes typing {
+        from { 
+            width: 0;
+            color: rgb(0, 106, 79);
+        }
+        to { 
+            width: 70%;
+            color: rgb(0, 106, 79);
+         }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(0, 106, 79); }
+    }
+    
+
+    .details{
+        width: 100%;
+        display: flex;  
+        justify-content: space-between;
+    }
+
+
+    
+    .bar{
+        position: relative;
+    
+        border: 2px solid rgb(37, 53, 41);
+    
+        border-radius: 20px;
+    
+    }
+    .bar div{
+        position: relative;
+        width: 0;
+        height: 6px;
+        border-radius: 10px;
+        background-color: rgb(37, 53, 41);
+    
+    
+    }
+
+    #html-bar{
+        animation: html-fill 2s forwards;
+    }
+    @keyframes html-fill{
+        100%{
+            width: 80%;
+        }
+    }
+
+    #css-bar{
+        animation: css-fill 2s forwards;
+    }
+    @keyframes css-fill{
+        100%{
+            width: 80%;
+        }
+    }
+
+    #js-bar{
+        animation: js-fill 2s forwards;
+    }
+    @keyframes js-fill{
+        100%{
+            width: 85%;
+        }
+    }
+
+    #python-bar{
+        animation: python-fill 2s forwards;
+    }
+    @keyframes python-fill{
+        100%{
+            width: 100%;
+        }
+    }
+
+    #r-bar{
+        animation: r-fill 2s forwards;
+    }
+    @keyframes r-fill{
+        100%{
+            width: 90%;
+        }
+    }
+
+    #sql-bar{
+        animation: sql-fill 2s forwards;
+    }
+    @keyframes sql-fill{
+        100%{
+            width: 95%;
+        }
+    }
+    

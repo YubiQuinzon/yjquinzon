@@ -1,0 +1,248 @@
+html, body {
+    background-color: black;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.parentdiv {
+    height: 100%;
+}
+
+.welcomepage{
+    height: 100%;
+    font-size: 700;
+    padding: 16px;
+}
+.welcoming{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding-top: 300px;
+    padding-left: 10px;
+    left: 100px;
+}
+
+.skillsrow{
+    top: 15px;
+    right: 15px; 
+    color: black;
+}
+
+.skill-bar-title{
+    height:30px
+}
+
+.skill-bar-title a{
+    color: inherit;
+}
+
+
+.welcoming h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 600%;
+}
+
+.welcoming .paragraph{
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 250%;
+    bottom: 25px;
+    left: 155px;
+}
+
+.welcomepic{
+    width: 50%;
+    height: 90%;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.photo1{
+    float: right;
+    width: auto;
+    height: 100%;
+}
+
+
+
+.aboutmepage{
+    height: 100%;
+    padding: 16px;
+}
+
+.aboutmepic{
+    width: 60%;
+    height: 100%;
+}
+
+.photo2{
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+    width: auto;
+    height: 75%;
+}
+
+img.photo2 {
+    box-shadow:
+      -50px -50px 0 -40px rgb(37, 53, 41),
+      50px 50px 0 -40px rgb(37, 53, 41);
+  }
+  
+
+.aboutme {
+    padding-top: 40px;
+}
+
+.aboutme h1{
+    color: white;
+    font-size: 300%;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 2;
+}
+
+.aboutme p{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+    opacity: 2;
+}
+
+.skillwrapper{
+    width: 40%;
+    min-width: 590px;
+}
+
+.skillcontainer{
+    width: 80%;
+    padding-bottom: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+
+.skillcontainer *{
+        font-family: "Poppins",sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+}
+
+.skillcontainer h2{
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.skillcontainer .skills{
+    padding-bottom: 5px;
+}
+
+.aboutmehighlight{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(78, 111, 86);
+    font-weight: bolder;
+    font-size: 115%;
+    opacity: 1.3;
+}
+
+.aboutme h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 2;
+}
+
+.languages {
+    position: relative;
+    margin-right: 300px;
+    color: white;
+}
+
+.showcasepage{
+    height: 100%;
+    padding: 50px;
+}
+
+.showcaseheader{
+    height: 10%;
+}
+
+.projectparent{
+    height: 90%;
+    width: 100%;
+}
+
+.project1{
+    height: 50%;
+    width: 100%;
+}
+
+.projectphoto1{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;  /* Move to the right */
+    align-items: center;  /* Center vertically */
+}
+
+.photo3{
+    height: auto;
+    width: 80%;
+}
+
+img.photo3 {
+    box-shadow:
+      -45px -45px 0 -40px rgb(0, 106, 79),
+      45px 45px 0 -40px rgb(0, 106, 79);
+}
+
+.projectdescription1{
+    text-align: left;  /* Center vertically */
+}
+
+.projectdescription1 h1{
+    color: rgb(0, 106, 79);
+}
+
+.projectdescription1 p{
+    color: white;
+}
+
+
+.project2{
+    padding-top: 40px;
+    height: 50%;
+    width: 100%;
+}
+
+.projectphoto2{
+    display: flex;
+    height: auto;
+    justify-content: flex-start;  /* Move to the right */
+    align-items: center;  /* Center vertically */
+}
+
+.photo4{
+    height: auto;
+    width: 80%;
+}
+
+img.photo4 {
+    box-shadow:
+      -45px -45px 0 -40px rgb(0, 106, 79),
+      45px 45px 0 -40px rgb(0, 106, 79);
+}
+
+.projectdescription2{
+    align-items: center;  /* Center vertically */
+    text-align: end;
+}
+
+.projectdescription2 h1{
+    color: rgb(0, 106, 79);
+}
+.projectdescription2 p{
+    color: white;
+}
